@@ -24,7 +24,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Load the Tesla Stock dataset
-file_path = '/mnt/data/tsla_2014_2023.csv'
+file_path = '/content/tsla_2014_2023.csv'
 data = pd.read_csv(file_path)
 
 # Convert 'date' column to datetime and sort the data
